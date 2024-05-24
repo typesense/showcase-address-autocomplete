@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --aa-selected-color-rgb: 209, 213, 219 !important;
+  --aa-primary-color-rgb: 217, 3, 104 !important;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0.5rem;
+  gap: 1.5rem;
+  max-width: 640px;
+  margin: auto;
+}
+main {
+  width: 100%;
+}
+
+li {
+  font-weight: 500;
+  color: #9ca3af;
+}
+h1 {
+  font-weight: 600;
+}
+b {
+  font-weight: 500;
+  color: black;
+}
+.aa-Form {
+  border-radius: 0.75rem !important;
+}
+
+.aa-InputWrapperPrefix > * {
+  display: none !important;
+}
+.aa-InputWrapperPrefix {
+  width: 0.75rem;
+}
+.aa-Panel {
+  border-radius: 0.5rem !important;
+  font-size: 14px !important;
+}
+h2 {
+  font-size: medium;
+  font-weight: normal;
+  text-align: center;
+}
+#typesense,
+#typesense > * {
+  color: rgb(var(--aa-primary-color-rgb));
+}
+
+#typesense {
+  font-weight: 500;
+}
+#typesense b {
+  font-weight: 700;
+}
+input {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}

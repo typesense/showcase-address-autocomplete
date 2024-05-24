@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/typesense@1/dist/typesense.min.js"
+    ></script>
+    <script defer src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Address autocomplete | Typesense</title>
+  </head>
+  <body>
+    <header>
+      <h1>Address autocomplete</h1>
+      <h2>
+        powered by
+        <a
+          href="https://typesense.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="typesense"
+        >
+          type<b>sense|</b>
+        </a>
+        &
+        <a href="https://github.com/algolia/autocomplete" target="_blank">
+          Autocomplete.js
+        </a>
+      </h2>
+    </header>
+    <main>
+      <div id="autocomplete"></div>
+    </main>
+  </body>
+</html>
