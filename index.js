@@ -15,7 +15,7 @@ autocomplete({
   placeholder: 'Type in an address in Boston city. Eg: 1 North Square',
   async getSources({ query }) {
     const results = await typesenseClient
-      .collections('addresses')
+      .collections('addresses_boston')
       .documents()
       .search({
         q: query,
