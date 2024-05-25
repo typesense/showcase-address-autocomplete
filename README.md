@@ -29,14 +29,14 @@ curl "${TYPESENSE_URL}/collections" \
        -H "Content-Type: application/json" \
        -H "X-TYPESENSE-API-KEY: ${TYPESENSE_API_KEY}" \
        -d '{
-         "name": "podcasts",
+         "name": "addresses_boston",
          "fields": [
            {"name": "postcode", "type": "string" },
            {"name": "address", "type": "string" }
          ]
        }'
 
-curl "${TYPESENSE_URL}/collections/podcasts/documents/import?action=create" \
+curl "${TYPESENSE_URL}/collections/addresses_boston/documents/import?action=create" \
         -H "X-TYPESENSE-API-KEY: ${TYPESENSE_API_KEY}" \
         -X POST \
         -T ./data/boston-addresses.jsonl
