@@ -16,7 +16,7 @@ autocomplete({
   detachedMediaQuery: 'none',
   async getSources({ query }) {
     const results = await typesenseClient
-      .collections('addresses')
+      .collections('addresses_boston')
       .documents()
       .search({
         q: query,
