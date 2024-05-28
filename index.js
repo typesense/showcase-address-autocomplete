@@ -13,6 +13,7 @@ let typesenseClient = new Typesense.Client({
 autocomplete({
   container: '#autocomplete',
   placeholder: 'Type in an address in Boston city. Eg: 1 North Square',
+  detachedMediaQuery: 'none',
   async getSources({ query }) {
     const results = await typesenseClient
       .collections('addresses_boston')
