@@ -1,4 +1,4 @@
-# Address autocomplete demo - powered by Typesense
+# Address Autocomplete - powered by Typesense 🗺️ 🔍
 
 This demo shows you how to build an Address autocomplete experience, similar to what you see commonly on address form fields, using Typesense, which is an open source alternative to Algolia.
 
