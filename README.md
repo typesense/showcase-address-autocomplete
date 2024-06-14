@@ -1,8 +1,10 @@
 # Address autocomplete demo - powered by Typesense
 
-This demo uses Algolia's [autocomplete-js](https://github.com/algolia/autocomplete) library and [Typesense](https://typesense.org). The dataset is from [OpenAddresses](https://www.kaggle.com/datasets/openaddresses/openaddresses-us-northeast).
+This demo shows you how to build an Address autocomplete experience, similar to what you see commonly on address form fields, using Typesense, which is an open source alternative to Algolia.
 
-**NOTE:** `autocomplete.js` is a standalone UI library and is unrelated to the `Autocomplete` widget in the Instantsearch.js UI library. [Read more](https://github.com/typesense/typesense-instantsearch-adapter/issues/88#issuecomment-1021597634).
+This is a good alternative to Algolia Places (which was sunset) and also an alternative to Google Maps API (which tends be very expensive).
+
+The dataset is from [OpenAddresses](https://www.kaggle.com/datasets/openaddresses/openaddresses-us-northeast).
 
 ## Get started
 
