@@ -21,10 +21,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 0.5rem;
+  padding: 2rem 0.5rem;
   gap: 1.5rem;
   max-width: 640px;
   margin: auto;
+}
+header {
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+}
+header a {
+  color: black;
+  text-decoration: underline;
 }
 main {
   width: 100%;
